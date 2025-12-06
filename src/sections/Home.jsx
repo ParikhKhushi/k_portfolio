@@ -54,7 +54,7 @@ const Home = () => {
                     className="mt-12 flex flex-wrap justify-center gap-4"
                 >
                     <Button href="#projects" primary>
-                        View Projects <ArrowRight className="w-5 h-5 ml-2" />
+                        View Projects <ArrowRight className="w-5 h-5 inline-block ml-2" />
                     </Button>
 
                     <Button
