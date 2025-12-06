@@ -165,7 +165,7 @@ const Footer = () => (
                     <Github size={24} />
                 </motion.a>
                 <motion.a
-                    href="https://linkedin.com/in/khushi-dev"
+                    href="https://www.linkedin.com/in/khushi-parikh-91111438a/"
                     target="_blank"
                     rel="noopener noreferrer"
                     whileHover={{ scale: 1.2, color: '#FFC0CB' }}

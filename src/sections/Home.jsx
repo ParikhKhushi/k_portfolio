@@ -64,7 +64,7 @@ const Home = () => {
                     />
 
                     <Button
-                        href="https://linkedin.com/in/khushi-dev"
+                        href="https://www.linkedin.com/in/khushi-parikh-91111438a/"
                         icon={<Linkedin className="w-6 h-6" color={lavenderMuted} />}
                         aria-label="LinkedIn Profile"
                     />
