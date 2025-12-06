@@ -118,7 +118,7 @@ const Contact = () => {
 
                             {/* Submit Button */}
                             <Button
-                                type="submit"
+                                type="button"
                                 primary
                                 icon={<Send className="w-5 h-5" />}
                             >
