@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+/* -------------------------------
+   🌸 Custom Theme Variables
+---------------------------------*/
+:root {
+    --pink-blush: #FFC0CB;
+    --lilac-soft: #DCD0FF;
+    --peach-light: #FFE6C7;
+    --lavender-muted: #A890D0;
+    --text-dark: #4A4A68;
+
+    --font-sans: "Montserrat", sans-serif;
+    --font-serif: "Playfair Display", serif;
+}
+
+/* -------------------------------
+   🎨 Tailwind Theme Tokens
+---------------------------------*/
+@theme {
+    /* Colors */
+    --color-pink-blush: var(--pink-blush);
+    --color-lilac-soft: var(--lilac-soft);
+    --color-peach-light: var(--peach-light);
+    --color-lavender-muted: var(--lavender-muted);
+    --color-text-dark: var(--text-dark);
+
+    /* Fonts */
+    --font-sans: var(--font-sans);
+    --font-serif: var(--font-serif);
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #4A4A68; /* text-dark */
+    scroll-behavior: smooth;
+    /* Hide default scrollbar for custom styling/smoothness */
+    scrollbar-width: none; /* Firefox */
+}
+
+body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge */
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
