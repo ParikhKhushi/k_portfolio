@@ -11,7 +11,7 @@ const projectsData = [
         desc: "A headless e-commerce frontend built using Angular, Material-Design, and SCSS. Features responsive layouts, interactive UI components, and smooth, modern transitions for an engaging user experience.",
         tags: ['Angular', 'Material-Design', 'SCSS', 'TypeScript'],
         icon: <Zap />,
-        github: '#',
+        github: 'https://github.com/ParikhKhushi/Khushi_Parikh_Learning_Angular',
         live: '#'
     },
     {
@@ -19,7 +19,7 @@ const projectsData = [
         desc: "A desktop POS application built with Java and JavaFX, featuring a responsive UI, efficient database interactions with JDBC, and polished styling using JavaFX CSS for a smooth user experience.",
         tags: ['Java', 'JavaFX', 'JDBC', 'JavaFX CSS'],
         icon: <Terminal />,
-        github: '#',
+        github: 'https://github.com/jeet7122/Store-Mate',
         live: '#'
     },
     {
