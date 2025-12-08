@@ -32,7 +32,7 @@ const Contact = () => {
             });
 
             if (response.ok) {
-                setStatus("Message Sent! Thank you, Khushi.");
+                setStatus("Message Sent! Thank you for connecting!");
                 e.target.reset();
             } else {
                 setStatus("Failed to send. Please try again later.");
