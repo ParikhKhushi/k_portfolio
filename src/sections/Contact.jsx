@@ -120,7 +120,7 @@ const Contact = () => {
                             <Button
                                 type="button"
                                 primary
-                                icon={<Send className="w-5 h-5" />}
+                                icon={<Send className="w-full h-5" />}
                             >
                                 Send Message
                             </Button>
