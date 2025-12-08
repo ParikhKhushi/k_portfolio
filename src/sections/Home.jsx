@@ -39,7 +39,6 @@ const Home = () => {
                     Hi, I'm Khushi, a passionate software developer.
                 </motion.p>
 
-                {/* 📝 Staggered Text Animation */}
                 <AnimatedText
                     text="Building Elegant UIs with Modern React, UX, and Advanced Motion."
                     className="text-4xl sm:text-6xl lg:text-8xl font-serif font-extrabold text-text-dark leading-tight"
@@ -53,7 +52,7 @@ const Home = () => {
                     className="mt-12 flex flex-wrap justify-center gap-4"
                 >
                     <Button href="#projects" primary>
-                        View Projects <ArrowRight className="w-5 h-5 inline-block ml-2 homepageBTN" />
+                        View Projects <ArrowRight className="w-5 h-5 inline-block homepageBTN" />
                     </Button>
 
                     <Button
