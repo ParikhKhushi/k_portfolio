@@ -46,7 +46,6 @@ const Home = () => {
                     delay={0.8}
                 />
 
-                {/* 🚀 CTA Buttons with Motion */}
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -54,18 +53,18 @@ const Home = () => {
                     className="mt-12 flex flex-wrap justify-center gap-4"
                 >
                     <Button href="#projects" primary>
-                        View Projects <ArrowRight className="w-5 h-5 inline-block ml-2" />
+                        View Projects <ArrowRight className="w-5 h-5 inline-block ml-2 homepageBTN" />
                     </Button>
 
                     <Button
                         href="https://github.com/ParikhKhushi"
-                        icon={<Github className="w-6 h-6" color={textDark} />}
+                        icon={<Github className="w-6 h-6 homepageBTN" color={textDark} />}
                         aria-label="GitHub Profile"
                     />
 
                     <Button
                         href="https://www.linkedin.com/in/khushi-parikh-91111438a/"
-                        icon={<Linkedin className="w-6 h-6" color={lavenderMuted} />}
+                        icon={<Linkedin className="w-6 h-6 homepageBTN" color={lavenderMuted} />}
                         aria-label="LinkedIn Profile"
                     />
                 </motion.div>
